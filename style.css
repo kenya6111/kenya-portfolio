@@ -1,0 +1,445 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  }
+
+li{
+    list-style:none;
+}
+a {
+    text-decoration: none;
+  }
+
+
+.container{
+    max-width:1170px;
+width:100%;
+margin:0 auto;
+}
+
+
+
+
+/*top-wrapper*/
+.top-wrapper{
+  padding-bottom:300px;
+    background-image:url(./gazou/head-g610c75c8d_1280.jpg);
+    background-size:cover;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:-100;
+
+}
+.top-wrapper h1{
+
+ padding-top:240px;
+ font-size:80px;
+ letter-spacing:4px;
+ font-family:  'PT Serif', serif;
+ font-weight:bold;
+ 
+}
+.top-wrapper h2{
+  font-size:40px;
+  letter-spacing:4px;
+  font-family:  'PT Serif', serif;
+
+ 
+
+}
+
+/*profile-wrapper*/
+.profile-wrapper{
+text-align:center;
+background-image:url(./gazou/black-and-white-g6ac1c29e6_1280.jpg);
+background-size:cover;
+padding-bottom:120px;
+color:white;
+
+}
+.profile-wrapper h2{
+  padding-top:50px;
+  font-family:  'PT Serif', serif;
+  font-size:30px;
+}
+.profile-image{
+  border-radius:100px;
+ 
+  margin-top:50px ;
+}
+h3{
+  font-family:  'PT Serif', serif;
+  font-family:20px;
+  margin-top:20px;
+}
+.introduction-text{
+background-color:rgba(0,0,0,0.5);
+border-radius:10px;
+margin:30px 40px;
+padding:30px;
+
+
+}
+.education-text{
+  background-color:rgba(0,0,0,0.5);
+border-radius:10px;
+margin:30px 40px;
+padding:30px;
+}
+
+.person{
+  margin-right:15px;
+  font-size:2em;
+}
+.apple{
+  margin-right:15px;
+  font-size:2em;
+}
+.study{
+  margin-right:15px;
+  font-size:2em;
+}
+
+
+
+
+/*skills-wrapper*/
+.skills-wrapper{
+  background-image:url(./gazou/laptop-g8ea0a16c0_1280.jpg);
+  background-size:cover;
+  text-align:center;
+  padding-bottom:100px
+}
+
+
+
+.skills-list{
+
+  color:white;
+  background-color:rgba(0,0,0,0.5);
+  border-radius:10px;
+ 
+}
+.skills-wrapper h2{
+  font-family:  'PT Serif', serif;
+  color:white;
+  padding-top:30px ;
+  padding-bottom:30px ;
+  
+  font-size:30px;
+}
+
+
+.skill-image1{
+display:inline-block;
+width: 18%;
+}
+.skill-image2{
+  display:inline-block;
+  width:20%;
+}
+.gear{
+  margin-right:15px;
+  font-size:2em;
+}
+.skills-list1{
+  padding:30px 0;
+  
+}
+.skills-list2{
+  padding-bottom:30px;
+}
+
+
+
+/*service-wrapper*/
+.service-wrapper{
+  text-align:center;
+  background-image:url(./gazou/toppage14.jpg);
+  background-size:cover;
+  padding-bottom:100px;
+  color:white;
+}
+.service-wrapper h2{
+  font-family:  'PT Serif', serif;
+  padding-top:30px ;
+  padding-bottom:30px ;
+  
+  font-size:30px;
+}
+.service-text{
+  background-color:rgba(0,0,0,0.5);
+  margin:0 50px;
+  padding:30px 0;
+  border-radius:10px;
+}
+.earth{
+  margin-right:15px;
+  font-size:2em;
+ 
+}
+.coding-image{
+  border-radius:100px;
+  
+}
+.coding-text{
+  margin-top:40px;
+  margin-bottom:40px;
+  font-size:25px;
+  font-weight:lighter;
+}
+
+/*works-wrapper*/
+
+.works-wrapper{
+  background-image:url(./gazou/desktop-g05a39d5a5_1280.jpg);
+  background-size:cover;
+  height:600px;
+  text-align:center;
+}
+.portfolio-title{
+  font-family:  'PT Serif', serif;
+  font-size:40px;
+  padding-top:40px;
+}
+.list{
+  margin-right:10px;
+}
+
+/*footer*/
+.footer{
+  background-image:url(./gazou/head-g610c75c8d_1280.jpg);
+  background-size:cover;
+  height:400px;
+  text-align:center;
+
+}
+.footer-title{
+  font-family:'PT Serif', serif;
+  font-size:40px;
+  
+  padding-top:80px;
+  padding-bottom:30px;
+
+}
+.mail-icon{
+  margin-right:10px;
+  font-size:50px;
+}
+.footer-text{
+  font-size:20px;
+  font-family:sans-serif;
+  margin-bottom:20px
+}
+.aicon{
+  display:inline;
+ 
+  
+}
+.gmail{
+  background-color:rgb(228, 228, 228,0.8);
+  font-size:40px;
+  padding:5px 10px;;
+  color:black;
+ margin-right:10px;
+}
+.instagram{
+  background-color:rgba(228,228,228);
+  font-size:40px;
+  padding:5px 10px;;
+  color:black;
+}
+
+/*Jquery*/
+.scrollanime {opacity: 0;} /*一瞬表示されるのを防ぐ*/
+.fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;         
+  }
+  100% {
+  opacity: 1;
+  transform: translate(0);
+  }
+}
+
+/*2.上下の動きを指定*/
+.updown {transform: translateY(-100px);}
+.downup {transform: translateY(100px);}
+ 
+/*3.左右の動きを指定*/
+.sect02{overflow: hidden;} /*横スクロールバーを隠す*/
+.slide-right {transform: translateX(200px);}
+.slide-left {transform: translateX(-200px);}
+
+
+
+
+
+
+
+
+
+/*=========ぼかしのためのCSS=================*/
+.mainblur{
+  filter: blur(8px);
+}
+
+/*========= ナビゲーションのためのCSS ===============*/
+
+#g-nav{
+  /*position:fixed;にし、z-indexの数値を小さくして最背面へ*/
+  position:fixed;
+z-index: -1;
+opacity: 0;/*はじめは透過0*/
+  /*ナビの位置と形状*/
+top:50;
+width:100%;
+height: 1000vh;/*ナビの高さ*/
+background:rgba(255,255,255,0.3);/*背景を少し透過させる*/
+  /*動き*/
+transition: all 0.3s;
+
+
+}
+
+/*アクティブクラスがついたら透過なしにして最前面へ*/
+#g-nav.panelactive{
+  opacity: 1;
+  z-index:999;
+}
+
+/*ナビゲーションの縦スクロール*/
+#g-nav.panelactive {
+  /*ナビの数が増えた場合縦スクロール*/
+  position: fixed;
+  z-index: 999; 
+  width: 100%;
+  height: 100vh;/*表示する高さ*/
+  overflow: auto;
+  
+}
+
+/*ナビゲーション*/
+#g-nav ul {
+  display:none;/*はじめは非表示*/
+  /*ナビゲーション天地中央揃え*/
+  position: absolute;
+  z-index: 999;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+  font-size: 40px;
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+}
+
+#g-nav.panelactive ul {
+  display: block;
+}
+/*リストのレイアウト設定*/
+
+#g-nav li{
+list-style: none;
+  text-align: center; 
+  padding-bottom:80px;
+
+}
+
+#g-nav li a{
+color: #333;
+text-decoration: none;
+padding:10px;
+display: block;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-weight: bold;
+}
+
+/*========= ボタンのためのCSS ===============*/
+.openbtn1{
+  position:fixed;
+    z-index: 9999;/*ボタンを最前面に*/
+  top:10px;
+  right: 10px;
+  cursor: pointer;
+    width: 50px;
+    height:50px;
+    
+}
+  
+/*×に変化*/  
+.openbtn1 span{
+    display:inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 4px;
+    border-radius: 2px;
+  background-color: #666;
+    width: 45%;
+    
+  }
+
+.openbtn1 span:nth-of-type(1) {
+  top:15px; 
+}
+
+.openbtn1 span:nth-of-type(2) {
+  top:23px;
+}
+
+.openbtn1 span:nth-of-type(3) {
+  top:31px;
+}
+
+.openbtn1.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+}
+
+.openbtn1.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.openbtn1.active span:nth-of-type(3){
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+}
+
+
+
+
+
+/*works-wrapperのJquery*/
+.caption{
+  
+  position:absolute;
+  top:5%;
+  left:32%;
+  right:32%;
+  bottom:5%;
+ 
+}
+.portfolio-link{
+
+  position:relative;
+  padding:0;
+}
+

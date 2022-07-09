@@ -1,0 +1,27 @@
+@media (max-width: 1160px) {
+    
+    .skill-image1{
+        
+        width:30%;
+     
+        }
+       
+        .skill-image2{
+          
+          width:30%;
+        }
+  }
+  
+ 
+  @media (max-width:670px) {
+    .skill-image1{
+      
+        width:50%;
+     
+        }
+        .skill-image2{
+          
+          width:50%;
+        }
+    
+  }
